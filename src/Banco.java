@@ -1,5 +1,8 @@
+import java.util.List;
+
 public class Banco {
-    public String nome;
+    private String nome;
+    private List<Conta> contas;
 
     public String getNome() {
         return nome;
